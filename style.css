@@ -11,27 +11,60 @@ body{
 }
 .principal{
     background: url(img/Background.png);
+    align-items: center;
 }
 .container{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     display: grid;
     grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 .principal__dados-promocao{
+    justify-items: center;
+    align-items: center;
+    Width: auto;
+    text-align: center;
     display: grid;
+    gap: 30px;
+    margin: 40px;
 }
 .container__botao{
     background-color: var(--azul-botao);
-    padding: 10px 30px;
+    padding: 16px;
     color: var(--branco-principal);
     text-decoration: none;
     border: 1px solid var(--azul-botao);
     border-radius: 5px;
     Width: 512px;
-    Height: Hug (56px);
+    Height: hug (56px);
     font-size: 16px;
     display: block;
     text-align: center;
+    
+}
+.container__botao_secundario{
+    background-color: transparent;
+    padding: 16px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    border: 1px solid var(--branco-principal);
+    border-radius: 5px;
+    Width: 512px;
+    Height: hug (56px);
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-alternativo);
+}
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
 }
