@@ -1,0 +1,37 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-alternativo: #C0C0C0;
+    --azul-botao: #167BF7;
+    --background-principal:#00030C;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-principal);
+    color: var(--branco-principal);
+}
+.principal{
+    background: url(img/Background.png);
+}
+.container{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.principal__dados-promocao{
+    display: grid;
+}
+.container__botao{
+    background-color: var(--azul-botao);
+    padding: 10px 30px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    border: 1px solid var(--azul-botao);
+    border-radius: 5px;
+    Width: 512px;
+    Height: Hug (56px);
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
