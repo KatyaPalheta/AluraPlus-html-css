@@ -22,7 +22,6 @@ body{
     grid-template-columns: 50% 50%;
     justify-items: center;
     align-items: center;
-    text-align: center;
 }
 .principal__dados-promocao{
     justify-items: center;
@@ -65,6 +64,20 @@ body{
     color: var(--cinza-alternativo);
 }
 .container__titulo{
-    font-size: 28px;
+    font-size: 48px;
     font-weight: 700;
+    padding-bottom: 40px;
+}
+.container__descricao{
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin: 40px;
+}
+.secundario__botao{
+    Width: auto;
+    margin: 40px;
+}
+.promocao__combo{
+    text-align: start;
+
 }
