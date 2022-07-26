@@ -8,6 +8,8 @@ body{
     font-family: 'Inter', sans-serif;
     background-color: var(--background-principal);
     color: var(--branco-principal);
+    width: 980px;
+    margin: 0px auto 0px auto;
 }
 .principal{
     background: url(img/Background.png);
@@ -64,9 +66,13 @@ body{
     color: var(--cinza-alternativo);
 }
 .container__titulo{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     padding-bottom: 40px;
+    display: block;
+}
+.container_titulo_destaque{
+    font-size: 28px;
 }
 .container__descricao{
     color: var(--branco-principal);
@@ -74,10 +80,44 @@ body{
     margin: 40px;
 }
 .secundario__botao{
-    Width: auto;
-    margin: 40px;
+    Width: 200px;
+    margin: 40px 0px 0px 0px;
 }
 .promocao__combo{
     text-align: start;
 
+}
+.dispositivos_itens{
+    display: grid;
+    align-content: center;
+}
+.dispositivos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.container_dispositivos{
+    text-align: center;
+    height: 100vh;
+    grid-template-columns: auto; 
+}
+footer{
+    text-align: center;
+    line-height: 20px;
+}
+footer, ul{
+    display:inline-block;
+}
+.menu_rodape{
+    display: inline-flex;
+    grid-column-gap: 15px;
+    font-size: 13px;
+}
+.rodape{
+    font-size: 11px;
+    margin: 30px 60px 30px 60px;
+}
+.logo{
+    margin: 30px;
 }
